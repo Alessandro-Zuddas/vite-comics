@@ -183,9 +183,9 @@ h3{
 
 .bg-logo{
     position: absolute;
-    top: 46%;
-    right: 15%;
-    width: 50%;
+    top: 45%;
+    right: 17%;
+    width: 45%;
 }
 
 .ft-bottom-row{
