@@ -10,9 +10,9 @@ export default {
 
 <template>
   
-  <div class="container">
+  <div class="container-md">
     <div>
-        Prova
+      Prova
     </div>
   </div>
 
@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 
-.container{
+.container-md{
     display: flex;
     justify-content: flex-start;
 }
