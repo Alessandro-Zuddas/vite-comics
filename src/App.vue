@@ -1,10 +1,16 @@
 <script>
 
-import HelloWorld from './components/HelloWorld.vue'
+import AppHeader from './components/AppHeader.vue'
+import AppHero from './components/AppHero.vue'
+import AppMain from './components/AppMain.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default {
   components: {
-    HelloWorld
+    AppHeader,
+    AppHero,
+    AppMain,
+    AppFooter
   }
 }
 
@@ -12,7 +18,10 @@ export default {
 
 <template>
 
-  <HelloWorld/>
+  <AppHeader/>
+  <AppHero/>
+  <AppMain/>
+  <AppFooter/>
 
 </template>
 
