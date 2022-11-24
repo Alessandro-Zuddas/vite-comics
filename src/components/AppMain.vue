@@ -49,6 +49,8 @@ export default {
 <style lang="scss" scoped>
 
 .row{
+    position: relative;
+    z-index: 100;
     background-color: var(--first-color);
 }
 
