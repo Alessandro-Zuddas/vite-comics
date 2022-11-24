@@ -10,9 +10,11 @@ export default {
 
 <template>
   
-  <div class="container-md">
-    <div>
-      Prova
+  <div class="row">
+    <div class="container-md">
+      <strong>
+        --> Content goes here &lt--
+      </strong>
     </div>
   </div>
 
@@ -20,9 +22,19 @@ export default {
 
 <style lang="scss" scoped>
 
+.row{
+  background-color: var(--second-color);
+}
+
 .container-md{
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
+}
+
+strong{
+  color: white;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 </style>
