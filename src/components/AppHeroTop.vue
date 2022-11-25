@@ -24,7 +24,7 @@
 
   .hero-img {
     width: 100%;
-    height: 15.625rem;
+    height: 21.875rem;
     background-image: url("../assets/img/jumbotron.jpg");
     background-size: cover;
     background-repeat: no-repeat;

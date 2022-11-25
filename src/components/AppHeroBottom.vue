@@ -17,6 +17,7 @@
       <strong>Current Series</strong>
       <ProductsCards />
     </div>
+    <button>LOAD MORE</button>
   </div>
 </template>
 
@@ -28,7 +29,6 @@
   .container-md {
     position: relative;
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -41,5 +41,12 @@
     font-size: large;
     padding: 0.3125rem 0.75rem;
     background-color: var(--first-color);
+  }
+
+  button {
+    margin-bottom: 1.25rem;
+    background-color: var(--first-color);
+    border-radius: 0;
+    padding: 0.3125rem 1.5625rem;
   }
 </style>
