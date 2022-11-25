@@ -183,7 +183,7 @@
 
   .bg-logo {
     position: absolute;
-    top: 70%;
+    top: 100%;
     right: 12%;
     width: 45%;
   }
