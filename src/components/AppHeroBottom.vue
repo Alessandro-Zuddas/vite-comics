@@ -2,18 +2,18 @@
 export default {
   data() {
     return {
-      
+
     }
   }
 }
 </script>
 
 <template>
-  
+
   <div class="row">
     <div class="container-md">
       <strong>
-        --> Content goes here &lt--
+        -- Content goes here --
       </strong>
     </div>
   </div>
@@ -21,20 +21,18 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
-.row{
+.row {
   background-color: var(--second-color);
 }
 
-.container-md{
+.container-md {
   display: flex;
   justify-content: flex-start;
 }
 
-strong{
+strong {
   color: white;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
-
 </style>
